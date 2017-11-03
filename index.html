@@ -1,232 +1,530 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="零件防潮牛皮紙袋">
-    <meta name="description" content="PE牛皮紙袋">
-    <meta name="description" content="牛皮紙">
-    <meta name="description" content="包裝用棉紙">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico"> <!-- Tommy ok -->
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Home</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
-    <title>零件外銷包裝好夥伴</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-   
+    <!-- Links -->
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="ie-emulation-modes-warning.js"></script> <!-- Tommy ok -->
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--JS-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+
+
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet"> <!-- Tommy ok -->
-    <style>
-    h6 {color: white;}
-    </style>
-  </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="https://xx78826.github.io/yhpagegithub/">零件外銷包裝好夥伴</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                
-                
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
     </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src='js/device.min.js'></script>
+</head>
+<body>
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header>
+        <div id="stuck_container" class="stuck_container">
+            <div class="container container-wide container container-wide-wide">
+
+                <nav class="navbar navbar-default navbar-static-top">
+
+                    <div class="navbar-header center-xs">
+                        <h1 class="navbar-brand">
+                            <a href="./">
+                                <img src="images/logo.png" alt="">
+                                buzarco
+                            </a>
+                        </h1>
+                    </div>
 
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>零件的貼身保鑣</h1>
-              <p>找到一個合適保護零件的好方法</p>
-              <p><a class="btn btn-lg btn-primary" href="https://xx78826.github.io/yhpagegithub/" role="button">現在聯絡客服</a></p>
+                    <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
+                        <li class="active">
+                            <a href="./">Home</a>
+                        </li>
+                        <li>
+                            <a href="index-1.html">Our services</a>
+
+                        </li>
+                        <li>
+                            <a href="index-2.html">Clients</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="index-3.html">About us</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">News</a>
+                                </li>
+                                <li>
+                                    <a href="#">Events</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Latest</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Popular</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Archive</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Prices</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="index-4.html">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+
             </div>
-          </div>
         </div>
-        <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>長期的合作夥伴</h1>
-              <p>讓你找到一家可以長期合作的好廠商</p>
-              <p><a class="btn btn-lg btn-primary" href="https://xx78826.github.io/yhpagegithub/" role="button">現在聯絡客服</a></p>
+        <div class="bg-image img-wrap">
+
+        </div>
+    </header>
+
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+
+    <main class="text-center">
+
+        <!--  Section 1-->
+        <section class="well-xs">
+            <div class="container container-wide container container-wide-wide">
+                <h2>About our company</h2>
+
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h5>Welcome to the leading company delivering services that combine quality, reliability and
+                            compliance!</h5>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-sm btn-default">Read More</a>
+
+                <div class="row text-center left-md flow-offset-1 wow fadeInUp">
+                    <div class="col-sm-6  col-md-3 col-md-offset-2">
+                        <div class="media">
+                            <div class="media-left">
+                                <span class="icon icon-lg icon-primary fl-justicons-airplane82"></span>
+                            </div>
+                            <div class="media-body">
+                                <p class="text-uppercase fw-b txt-sec">Business Growth</p>
+
+                                <p>Every company in the world needs growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6  col-md-3 col-md-offset-1">
+                        <div class="media">
+                            <div class="media-left inset-3">
+                                <span class="icon icon-lg icon-primary fl-justicons-megaphone10"></span>
+                            </div>
+                            <div class="media-body">
+                                <p class="text-uppercase fw-b txt-sec">business innovation</p>
+
+                                <p>We’re helping to develop innovation-driven entrepreneurs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6  col-md-3 col-md-offset-2">
+                        <div class="media">
+                            <div class="media-left">
+                                <span class="icon icon-lg icon-primary fl-justicons-chronometer17"></span>
+                            </div>
+                            <div class="media-body">
+                                <p class="text-uppercase fw-b txt-sec">FINANCIAL SOLUTIONS</p>
+
+                                <p>We’re committed to delivering world-class financial planning.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6  col-md-4 col-md-offset-1">
+                        <div class="media">
+                            <div class="media-left inset-4">
+                                <span class="icon icon-lg icon-primary fl-justicons-bell37"></span>
+                            </div>
+                            <div class="media-body">
+                                <p class="text-uppercase fw-b txt-sec">Our Objective</p>
+
+                                <p>We manage client portfolios and provide financial advice.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>量身打造</h1>
-              <p>打造最合適的尺寸,最佳的選擇</p>
-              <p><a class="btn btn-lg btn-primary" href="https://xx78826.github.io/yhpagegithub/" role="button">現在聯絡客服</a></p>
+        </section>
+        <!-- END -->
+        <!--Section 2-->
+        <section class="parallax well-lg" data-url="images/page-1_img02.jpg" data-mobile="true" data-speed="1">
+            <p class="big fw-b z-index-1 wow fadeInUp" data-wow-delay="0.3s">
+                Best professional consulting<br>
+                at your service
+            </p>
+
+        </section>
+        <!--END-->
+        <!-- Section 3 -->
+        <section class="well-sm">
+            <div class="container container-wide">
+                <h2>our pride</h2>
+
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h5>Our results become our reputation — and so it is a matter of personal pride that we do
+                            everything we
+                            can to grow your business</h5>
+                    </div>
+                </div>
+
+
+                <div class="row flow-offset-2">
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.1s">
+                        <span class="icon icon-lg icon-default fl-justicons-precious1"></span>
+
+                        <div class="counter" data-from="1" data-to="67" data-speed="5000">67</div>
+                        <h3>Clients</h3>
+
+                        <p>Buzarco clients share our passion for results and it is shown in their success. Companies that
+                            outperform the market like to work with us. Learn more by reading from our ...</p>
+
+                    </div>
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.2s">
+                        <span class="icon icon-lg icon-default fl-justicons-global24"></span>
+
+                        <div class="counter" data-from="1" data-to="16" data-speed="5000">16</div>
+                        <h3>Countries</h3>
+
+                        <p>Buzarco is a global business network of more than 21,000 companies that deliver innovative
+                            business solutions. Through access to our company's premier products</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.3s">
+                        <span class="icon icon-lg icon-default fl-justicons-rocket64"></span>
+
+                        <div class="counter" data-from="1" data-to="457" data-speed="5000">457</div>
+                        <h3>Projects</h3>
+
+                        <p>Buzarco projects give enterprises the opportunity to extend and revaluate their current
+                            business strategy from a fresh point of view or to find a solution for a topic ...</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
+                        <span class="icon icon-lg icon-default fl-justicons-user140"></span>
+
+                        <div class="counter" data-from="1" data-to="56" data-speed="5000">56</div>
+                        <h3>People in Staff</h3>
+
+                        <p>Although we're proud of our products, services, and technology, nothing matches the pride we
+                            have in our staff. We are commited to providing excellent customer ... </p>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
+        </section>
+        <!-- END Section 3-->
+        <!-- Section 4 -->
+        <section class="well">
+            <div class="container container-wide">
+                <h2>Latest News</h2>
+
+                <div class="row offset-1 row-no-gutter">
+                    <div class="col-sm-6 col-md-4 wow fadeInLeft ">
+                        <article class="article">
+                            <a href="#">
+                                <figure class="figure">
+                                    <img src="images/page-1_img03.jpg" class="img-wide" width="390" height="241" alt="">
+                                    <figcaption class="figure-caption">
+                                        <time datetime="2015-12-30">27.07.2015</time>
+                                        <p>+1 step on the career ladder</p>
+                                    </figcaption>
+
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-md-4 wow fadeInUp">
+                        <article class="article">
+                            <a href="#">
+                                <figure class="figure">
+                                    <img src="images/page-1_img04.jpg" class="img-wide" width="390" height="241" alt="">
+                                    <figcaption class="figure-caption">
+                                        <time datetime="2015-12-30">28.07.2015</time>
+                                        <p>Fall business-school</p>
+                                    </figcaption>
+
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-md-4 wow fadeInRight">
+                        <article class="article">
+                            <a href="#">
+                                <figure class="figure">
+                                    <img src="images/page-1_img05.jpg" class="img-wide" width="390" height="241" alt="">
+                                    <figcaption class="figure-caption">
+                                        <time datetime="2015-12-30">29.07.2015</time>
+                                        <p>Our new home</p>
+                                    </figcaption>
+
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-md-6 wow fadeInLeft">
+                        <article class="article">
+                            <a href="#">
+                                <figure class="figure">
+                                    <img src="images/page-1_img06.jpg" class="img-wide" width="585" height="255" alt="">
+                                    <figcaption class="figure-caption">
+                                        <time datetime="2015-12-30">30.07.2015</time>
+                                        <p>Up-grade program has just finished</p>
+                                    </figcaption>
+
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-md-6 wow fadeInRight">
+                        <article class="article">
+                            <a href="#">
+                                <figure class="figure">
+                                    <img src="images/page-1_img07.jpg" class="img-wide" width="585" height="255" alt="">
+                                    <figcaption class="figure-caption">
+                                        <time datetime="2015-12-30">02.08.2015</time>
+                                        <p>We are now ready to move</p>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                        </article>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-12 wow fadeInUp">
+                        <article class="article">
+                            <a href="#">
+                                <figure class="figure">
+                                    <img src="images/page-1_img08.jpg" class="img-wide" width="1170" height="300"
+                                         alt="">
+                                    <figcaption class="figure-caption">
+                                        <time datetime="2015-12-30">03.08.2015</time>
+                                        <p>Creating new departments</p>
+                                    </figcaption>
+                                </figure>
+
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END Section 4-->
+        <!-- Section 5 -->
+        <section class="well-md">
+            <div class="container container-wide">
+                <h2>Testimonials</h2>
+
+                <div class="row offset-2">
+                    <div class="col-sm-6 col-sm-offset-3 ">
+                        <h5>Have a look at some of our client's testimonials as well as what some of the suppliers
+                            say</h5>
+                    </div>
+                </div>
+
+                <!-- Owl Carousel -->
+                <div class="owl-carousel inset-1 ">
+                    <div class="owl-item text-center left-md">
+                        <blockquote class="quote">
+                            <div class="media">
+                                <div class="media-left img-circle inset-2">
+                                    <img src="images/page-1_img09.jpg" width="101" height="101" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <p><cite>Dylan Hanson</cite></p>
+                                    <p><q>Buzarco provides the strategic sourcing and subject matter expertise necessary to
+                                        tackle a variety of complex categories. They work well in a teaming environment,
+                                        customizing their approach to fit the unique needs and culture of their customer
+                                        rather than trying to force a rigid process onto an organization. Their staff is
+                                        well trained with broad skill sets that range from spend analysis to research to
+                                        ...</q></p>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                    <div class="owl-item text-center left-md">
+                        <blockquote class="quote">
+                            <div class="media">
+                                <div class="media-left img-circle inset-2 ">
+                                    <img src="images/page-1_img10.jpg" width="101" height="101" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <p><cite>Jessica Priston</cite></p>
+                                    <p><q>My experience in working with Buzarco was a positive one. Their professionalism
+                                        was refreshing and I would welcome the opportunity to work with them again.
+                                        Thank you for making the negotiation process a very pleasant experience.</q></p>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                    <div class="owl-item text-center left-md">
+                        <blockquote class="quote">
+                            <div class="media">
+                                <div class="media-left  img-circle inset-2">
+                                    <img src="images/page-1_img11.jpg" width="101" height="101" alt="">
+                                </div>
+                                <div class="media-body">
+
+                                    <p><cite>John Franklin</cite></p>
+                                    <p><q>Buzarco has brought that kind of world class sourcing expertise and procurement
+                                        process improvements to Main Street companies who either do not have any
+                                        internal resources or want to elevate their current efforts from good to great.
+                                        Buzarco is responsive to volatile market data and provides timely responses from
+                                        their clients.</q></p>
+
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <!-- END Owl Carousel -->
+            </div>
+        </section>
+        <!-- END Section 5-->
+
+        <!-- Section 6 -->
+        <section class="parallax parallax--mod-1 well-sm" data-url="images/page-1_img12.jpg" data-mobile="true"
+                 data-speed="1">
+            <div class="container container-wide z-index-1 text-center">
+                <h2>our team</h2>
+                <h5>Meet some of our lovely, passionate, positive people.</h5>
+
+                <figure class="figure figure--mod-1 img-circle ">
+                        <img src="images/page-1_img15.jpg" class="img-wide" alt="">
+
+                    <figcaption class="figure-caption">
+                        <h4>Douglas Walker</h4>
+                    </figcaption>
+                </figure>
+
+                <figure class="figure figure--mod-2 img-circle">
+                        <img src="images/page-1_img13.jpg" class="img-wide" alt="">
+
+                    <figcaption class="figure-caption">
+                        <h4>Austin Fields</h4>
+                    </figcaption>
+                </figure>
+
+                <figure class="figure figure--mod-1 img-circle ">
+                        <img src="images/page-1_img14.jpg" class="img-wide" alt="">
+
+                    <figcaption class="figure-caption">
+                        <h4>Lori Webb</h4>
+                    </figcaption>
+                </figure>
+
+            </div>
+
+        </section>
+        <!-- END Section 6 -->
+        <!-- Section 7 -->
+        <section class="well-lg text-center bg-gray">
+            <div class="container container-wide">
+                <h2>Our newsletter</h2>
+
+                <form class="rd-mailform" method="post" action="bat/rd-mailform.php">
+                    <!-- RD Mailform Type -->
+                    <input type="hidden" name="form-type" value="subscribe"/>
+                    <!-- END RD Mailform Type -->
 
 
+                    <div class="form-group">
+                        <label class="form-label" data-add-placeholder data-add-icon for="mailform-input-email">Email</label>
+                            <input id="mailform-input-email"
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+                                   type="text"
+                                   name="email"
+                                   data-constraints="@NotEmpty @Email"/>
 
-    <div class="container marketing">
+                    </div>
+                    <div class="form-group btn-wr">
+                        <button class="btn btn-sm  btn-default" type="submit">Subscribe</button>
+                        <div class="mfInfo"></div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- END Section 7-->
+        <!-- Section 8 -->
+        <section class="parallax parallax--mod-2 well-1" data-url="images/page-1_img20.jpg" data-mobile="true"
+                 data-speed="1">
+            <div class="container container-wide z-index-1 wow fadeInRight">
+                <h2>
+                    Our clients
+                </h2>
+                <ul class="flex-list">
+                    <li><a href="#"><img src="images/page-1_img16.png" class="img-wide" alt=""></a></li>
+                    <li><a href="#"><img src="images/page-1_img17.png" class="img-wide" alt=""></a></li>
+                    <li><a href="#"><img src="images/page-1_img18.png" class="img-wide" alt=""></a></li>
+                    <li><a href="#"><img src="images/page-1_img19.png" class="img-wide" alt=""></a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- END Section 8 -->
+    </main>
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img" src="paper1.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>良好的配合</h2>
-          <p>還在尋找一個可以長期配合的供應商.</p>
-          <p><a class="btn btn-default" href="https://xx78826.github.io/yhpagegithub/" role="button">馬上擁有 &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img" src="paper2.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>合適的包裝</h2>
-          <p>不確定怎麼樣的外包裝比較合適,想要改善.</p>
-          <p><a class="btn btn-default" href="https://xx78826.github.io/yhpagegithub/" role="button">馬上擁有 &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img" src="paper3.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>新嘗試</h2>
-          <p>想嘗試新的外包裝但找不到合適的供應商.</p>
-          <p><a class="btn btn-default" href="https://xx78826.github.io/yhpagegithub/" role="button">馬上擁有 &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+    <!--========================================================
+                            FOOTER
+    =========================================================-->
+    <footer>
 
+        <section class="bg-dark text-center ">
 
-      <!-- START THE FEATURETTES -->
+            <div class="container container-wide">
+                <div class="clearfix pull-left-sm">
+                    <p class="h5 left-sm">Follow Us on Social Networks</p>
+                    <ul class="list-inline">
+                        <li><a href="#" class="icon icon-xs icon-contrast fa-facebook-square"></a></li>
+                        <li><a href="#" class="icon icon-xs icon-contrast fa-linkedin-square"></a></li>
+                        <li><a href="#" class="icon icon-xs icon-contrast fa-instagram"></a></li>
+                        <li><a href="#" class="icon icon-xs icon-contrast fa-pinterest-square"></a></li>
+                        <li><a href="#" class="icon icon-xs icon-contrast  fa-twitter-square"></a></li>
+                    </ul>
+                </div>
+                <div class="clearfix pull-right-sm">
+                    <p class="rights ">
+                        <span id="copyright-year"></span> copyright by buzarco. <a href="index-5.html">Privacy
+                        Policy</a>
+                        More <a rel="nofollow" href="http://www.templatemonster.com/category/business-web-templates/" target="_blank">Business Website Templates at TemplateMonster.com</a>
+                    </p>
+                </div>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">汽車零件外包裝的好選擇. <span class="text-muted">保護路途中的磨損.</span></h2>
-          <p class="lead">不管是內銷外銷,只要是零件,都是可以使用牛皮紙袋.</p>
-        </div>
-        <div class="col-md-5">
-          <div class="container">
-            <div class="whiteword">
-              <h6>牛皮紙 牛皮紙袋 PE紙袋</h6>
-                <h6>零件外包裝 包裝材料 台北</h6>
-                <h6>防潮牛皮紙 外銷專用</h6>      
-            </div>           
-              <img src="image1.JPG" class="img-rounded" alt="Kraft paper bag" width="304" height="236"> 
-          </div>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-5">
-         <div class="container">
-            <div class="whiteword">
-              <h6>設計師接案 盒子 報價</h6>
-                <h6>紙盒外包裝製造 台北</h6>
-                <h6>零件內銷</h6>      
-            </div>           
-              <img src="image2.JPG" class="img-rounded" alt="PE bag" width="304" height="236"> 
-          </div>
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">防潮讓零件不受損.</h2>
-          <p class="lead">讓零件完整的交付於客戶的手上,減少久放造成的損害.</p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">我們認真服務.</h2>
-          <p class="lead">馬上來聯繫線上客服吧,馬上為您估價.</p>
-        </div>
-        <div class="col-md-5">
-          <div class="container">
-            <div class="whiteword">
-              <h6>防潮牛皮紙袋</h6>
-                <h6>防止零件變質</h6>
-                <h6>台北 台灣 </h6>     
-            </div>           
-              <img src="image3.JPG" class="img-rounded" alt="Kraft paper bag" width="304" height="236"> 
-          </div>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
+            </div>
+        </section>
+    </footer>
+</div>
 
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="bootstrap.min.js"></script>  <!-- Tommy ok -->
-    <script src="docs.min.js"></script>     <!-- Tommy ok -->
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="ie10-viewport-bug-workaround.js"></script>
-  </body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+</body>
 </html>

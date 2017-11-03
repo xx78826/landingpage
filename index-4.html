@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Contacts</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Links -->
+
+
+    <!--JS-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+
+
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src='js/device.min.js'></script>
+</head>
+<body>
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header class="header-1">
+        <div id="stuck_container" class="stuck_container">
+            <div class="container container-wide container container-wide-wide">
+
+                <nav class="navbar navbar-default navbar-static-top">
+
+                    <div class="navbar-header center-xs">
+                        <h1 class="navbar-brand">
+                            <a href="./">
+                                <img src="images/logo.png" alt="">
+                                buzarco
+                            </a>
+                        </h1>
+                    </div>
+
+
+                    <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
+                        <li>
+                            <a href="./">Home</a>
+                        </li>
+                        <li>
+                            <a href="index-1.html">Our services</a>
+                            
+                        </li>
+                        <li>
+                            <a href="index-2.html">Clients</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="index-3.html">About us</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">News</a>
+                                </li>
+                                <li>
+                                    <a href="#">Events</a>
+                                    <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Latest</a>
+                                </li>
+                                <li>
+                                    <a href="#">Popular</a>
+                                </li>
+                                <li>
+                                    <a href="#">Archive</a>
+                                </li>
+                            </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Prices</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="active">
+                            <a href="index-4.html">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+
+    <main class="text-center">
+        <!--Section 1-->
+        <section class="well-xs">
+            <div class="container container-wide">
+                <h2>
+                    Contact Information
+                </h2>
+                <h5>You can contact us any way that is convenient for you</h5>
+
+                <div class="contact-info">
+                    <div class="row ">
+                        <div class="col-sm-4">
+                            <span class="icon icon-lg icon-default fl-justicons-maps7"></span>
+                            <address class="h3"><a href="#">4578 Marmora Road,<br>Glasgow D04 89GR</a></address>
+                        </div>
+                        <div class="col-sm-4">
+                            <span class="icon icon-lg icon-default fl-justicons-telephone95"></span>
+
+                            <p class="h3"><a href="callto:#">+1 800 559 6580</a></p>
+
+                            <p class="h3"><a href="callto:#">+1 800 603 6035</a></p>
+                        </div>
+                        <div class="col-sm-4">
+                            <span class="icon icon-lg icon-default fl-justicons-new78"></span>
+
+                            <p class="h3"><a href="mailto:#">www.demolink.org</a></p>
+
+                            <p class="h3"><a href="mailto:#">mail@demolink.org</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Section 1-->
+
+
+        <!-- Section 2 -->
+        <section class="well-2  bg-gray">
+            <div class="container container-wide">
+                <h2>feedback</h2>
+
+                <form class='rd-mailform' method="post" action="bat/rd-mailform.php">
+                    <!-- RD Mailform Type -->
+                    <input type="hidden" name="form-type" value="contact"/>
+                    <!-- END RD Mailform Type -->
+
+                    <div class="row ">
+                        <div class="col-sm-4 offset-4">
+                            <div class="form-group form-group--mod-1">
+                                <label class="form-label" data-add-placeholder for="mailform-input-name">name *</label>
+                                    <input id="mailform-input-name"
+                                           
+                                           type="text"
+                                           name="name"
+                                           data-constraints="@NotEmpty @LettersOnly"/>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-4 offset-4">
+                            <div class="form-group form-group--mod-1">
+                                <label class="form-label" data-add-placeholder for="mailform-input-email">email *</label>
+                                    <input id="mailform-input-email"
+                                           
+                                           type="text"
+                                           name="email"
+                                           data-constraints="@NotEmpty @Email"/>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-4 offset-4">
+                            <div class="form-group form-group--mod-1">
+                                <label class="form-label" data-add-placeholder data-add-icon for="mailform-input-phone">telephone: </label>
+                                    <input id="mailform-input-phone"
+                                           
+                                           type="text"
+                                           name="phone"
+                                           data-constraints="@Phone"/>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group textarea">
+                        <label data-add-placeholder for="mailform-input-textarea">
+                      <textarea id="mailform-input-textarea"
+                                name="message"
+                                placeholder="message:"
+                                data-constraints="@NotEmpty"></textarea>
+                        </label>
+                    </div>
+
+
+                    <div class="form-group form-group--mod-1 btn-wr">
+                        <button class="btn btn-sm  btn-default" type="submit">submit</button>
+
+                        <div class="mfInfo"></div>
+
+                    </div>
+                </form>
+
+            </div>
+        </section>
+        <!-- END Section 2-->
+        <!-- Section 3 -->
+        <section>
+            <div class="map">
+                <div id="google-map" class="map_model"></div>
+                <ul class="map_locations">
+                    <li data-x="-73.9874068" data-y="40.643180">
+                        <p><a href="#">9870 St Vincent Place, Glasgow, DC 45 Fr 45.</a><a
+                                href="#"><span>800 2345-6789</span></a></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- END Section 3-->
+
+
+    </main>
+
+    <!--========================================================
+                            FOOTER
+    =========================================================-->
+    <footer>
+
+        <section class="bg-dark text-center ">
+
+            <div class="container container-wide">
+                <div class="clearfix pull-left-sm">
+                    <p class="h5 left-sm">Follow Us on Social Networks</p>
+                    <ul class="list-inline">
+                        <li><a href="#" class="icon icon-xs icon-contrast fa-facebook-square"></a></li>
+                        <li><a href="#" class="icon icon-xs icon-contrast fa-linkedin-square"></a></li>
+                        <li><a href="#" class="icon icon-xs icon-contrast fa-instagram"></a></li>
+                        <li><a href="#" class="icon icon-xs icon-contrast fa-pinterest-square"></a></li>
+                        <li><a href="#" class="icon icon-xs icon-contrast  fa-twitter-square"></a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix pull-right-sm">
+                    <p class="rights ">
+                        <span id="copyright-year"></span> copyright by buzarco. <a href="index-5.html">Privacy
+                        Policy</a>
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+<!-- </script> -->
+
+</body>
+</html>
